@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { useFavourites } from "../hooks/useFavourites";
 import { FiXCircle as CloseIcon } from "react-icons/fi";
 
