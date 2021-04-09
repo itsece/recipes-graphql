@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  --black: #222222;
+  --purple: #2c2c54;
+  --red: #ff4757;
+  --darkGrey: #999;
+  --grey: #DDD;
+  --fontFamily: Arial, Helvetica, sans-serif;
+  --radius: 6px;
+}
+
+body {
+  font-family: var(--fontFamily);
+  font-size: 10px;
+}
+
+*, *::after, *:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}

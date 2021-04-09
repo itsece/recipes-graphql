@@ -1,0 +1,14 @@
+.recipe-list {
+  padding: 1rem 0;
+  --width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  --columns: 1;
+  width: var(--width);
+  gap: 40px;
+  @media (min-width: 1024px) {
+    --columns: 3;
+    --width: 85%;
+  }
+}

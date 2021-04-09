@@ -1,0 +1,34 @@
+.main-ingredient-filter {
+
+  &__list {
+    margin: 15px 0px 0px 0px;
+    --columns: 2;
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    gap: 25px;
+    @media (min-width: 1024px) {
+      --columns: 4
+    }
+    @media (min-width: 1280px) {
+      --columns: 6;
+    }
+  }
+
+  &__button {
+    padding: 15px 30px;
+    font-family: var(--fontFamily);
+    background: transparent;
+    border: 2px solid var(--purple);
+    border-radius: var(--radius);
+    color: var(--purple);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+    &--active {
+      background: var(--purple);
+      color: white;
+    }
+  }
+}
